@@ -8,6 +8,7 @@ This is the complete flowchart that was used in this lab which will be broken do
 
 ### Vector Source
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/2b83ad2e-2c43-4ff7-8967-1aa2e46a2923)
+
 The vector source block is providing the system with a set of numbers that indicate whether the square wave input is low or high. There are only two levels for this lab meaning there are two bits of information being transmitted. The 1 represents the high (binary 1) and the -1 represents the low (binary 0) and the square wave follows the pattern set by this vector source block.
 
 ### Frequency Modulation
