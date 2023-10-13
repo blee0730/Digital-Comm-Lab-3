@@ -1,10 +1,10 @@
 # Digital-Comm-Lab-3
 ## Introduction
-In this lab GNURadio was used to create an fsk (Frequency Shift Keyed) transmitter and receiver. 
+In this lab GNURadio was used to create an fsk (Frequency Shift Keying) transmitter (Tx) and receiver (Rx). 
 
 ## Flowchart
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/e3905628-1758-4d7a-a432-f3716d50ad1f)
-This is the complete flowchart that was used in this lab which will be broken down and explained in parts.
+This is the complete flowchart that was used in this lab which will be broken down and explained in parts. The big picture split of this flowchart is that everything up to the multiplication block is the transmitter and everything after is the receiver.
 
 ### Vector Source
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/2b83ad2e-2c43-4ff7-8967-1aa2e46a2923)
