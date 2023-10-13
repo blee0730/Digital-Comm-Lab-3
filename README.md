@@ -1,6 +1,6 @@
 # Digital-Comm-Lab-3
 ## Introduction
-In this lab GNURadio was used to create an fsk (Frequency Shift Keying) transmitter (Tx) and receiver (Rx). 
+In this lab GNURadio was used to create an fsk (Frequency Shift Keying) transmitter (Tx) and receiver (Rx). Unlike the previous labs this flowchart did not use the SDR and was solely made using GNURadio. Therefore, instead of using the SDR as an input it was instead replaced by a vector block that created a square wave to simulate a digital signal being transmitted. The flowchart is shown below.
 
 ## Flowchart
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/e3905628-1758-4d7a-a432-f3716d50ad1f)
@@ -13,6 +13,8 @@ The vector source block is providing the system with a set of numbers that indic
 
 ### Frequency Modulation
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/613faaef-511d-4193-8df5-f137d12b3f86)
+The frequency modulation is controlled using multiple variables defined at the top of the flowchart. By changing the variable fsk_deviation_hz the frequency modulation sensitivity is changed in turn. This is shown clearly on the output using the first waterfall where the width of the waterfall is varied. This is the exact equation used inside of the frequency modulation block:
+![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/db34ed04-5e1a-4157-a663-a2ffa2c028e7)
 
 
 ### Multiply Carrier
