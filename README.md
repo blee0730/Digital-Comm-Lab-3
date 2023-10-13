@@ -13,6 +13,7 @@ The vector source block is providing the system with a set of numbers that indic
 
 ### Frequency Modulation
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/613faaef-511d-4193-8df5-f137d12b3f86)
+
 The frequency modulation is controlled using multiple variables defined at the top of the flowchart. By changing the variable fsk_deviation_hz the frequency modulation sensitivity is changed in turn. This is shown clearly on the output using the first waterfall where the width of the waterfall is varied. This is the exact equation used inside of the frequency modulation block:
 ![image](https://github.com/blee0730/Digital-Comm-Lab-3/assets/130094173/7abd3133-f15c-43e2-9ad0-370e0b221827)
 
